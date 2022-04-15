@@ -1,0 +1,102 @@
+{
+  
+   "video": {
+   "type": "video-input",
+   "label": "Exercise video graphic",
+   "group": "General"
+ },
+  
+    "paddingSides": {
+    "type": "number",
+    "label": "Padding sides (px)",
+    "value": 10,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "General"
+  },
+  
+    "paddingTopBottom": {
+    "type": "number",
+    "label": "Padding top and bottom (px)",
+    "value": 10,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "General"
+  },
+  
+    "height": {
+    "type": "number",
+    "label": "Box height (px)",
+    "value": 64,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "General"
+  },
+  
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background color",
+    "value": "rgba(36, 6, 73, 0.15)",
+    "group": "General"
+  },
+  
+   "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(255, 255, 255)",
+    "group": "Font"
+  },
+  
+  "fontFamily": {
+    "type": "googleFont",
+    "label": "Choose a font:",
+    "value": "Oxygen",
+    "group": "Font"
+  },
+  
+    "fontSize": {
+    "type": "number",
+    "label": "Font size (px)",
+    "value": "20",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "Font"
+  },
+  
+    "command1": {
+        "type": "text",
+        "label": "Command to hide the code",
+        "value": "!hide-exercise",
+      	"group": "Command"
+    },
+    "command2": {
+        "type": "text",
+        "label": "Command to show the code",
+        "value": "!show-exercise",
+      	"group": "Command"
+    },
+    "command3": {
+        "type": "text",
+        "label": "Command to set and show the code",
+        "value": "!exercise",
+      	"group": "Command"
+    },
+    "managePermissions": {
+        "type": "dropdown",
+        "label": "Who can change the code",
+        "value": "mods",
+        "options": {
+            "streamer": "Streamer",
+            "mods": "Streamer + Mods"
+        },
+      "group": "Command"
+    }
+  
+}
+
+
+
