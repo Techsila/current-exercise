@@ -1,8 +1,8 @@
 {
   
-   "video": {
-   "type": "video-input",
-   "label": "Exercise video graphic",
+   "img": {
+   "type": "image-input",
+   "label": "Exercise image graphic",
    "group": "General"
  },
   
