@@ -9,7 +9,7 @@
   
    "img": {
    "type": "image-input",
-   "label": "Exercise image graphic",
+   "label": "Icon before text",
    "group": "General"
  },
   
@@ -104,3 +104,6 @@
     }
   
 }
+
+
+
