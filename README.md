@@ -1,4 +1,4 @@
-# current-exercise
+# Current Exercise Widget
 StreamElements overlay for Fitness and health streams.
 
 Design and idea by Techsila. Mainly intended for my own use, so errors might occur on others people setup. If something weird is happening, PLEASE do tell me so that I can fix the errors. My discord is Techsila#3266 / https://discord.gg/MYmQ7m9
