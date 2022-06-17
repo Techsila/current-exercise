@@ -12,7 +12,7 @@ body {
   display: inline-flex;
   position: relative;
   margin: 30px 0;
-  white-space: nowrap;
+  white-space: pre-line;
 
 }
 
@@ -31,11 +31,11 @@ body {
 .image-box{
   position: relative;
   max-width: 100%;
+  width: auto;
   height: 90px;
   padding: 0 0 0 {{paddingSides}}px;
   margin-top: -5px;
 }
-
 
 /* COMMAND CODE BY BENNO*/
 
