@@ -1,0 +1,57 @@
+* {
+    font-family: '{{fontFamily}}';
+    color: {{fontColor}};
+    font-size: {{fontSize}}px;
+}
+
+body {
+	margin: 0 !important;
+}
+
+.main-container {
+  display: inline-flex;
+  position: relative;
+  margin: 30px 0;
+  white-space: pre-line;
+
+}
+
+.exercise-box {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+    height: {{height}}px;
+  	background-color: {{backgroundColor}};
+}
+
+.text-box {
+  padding: {{paddingTopBottom}}px {{paddingSides}}px {{paddingTopBottom}}px {{paddingSides}}px;
+}
+
+.image-box{
+  position: relative;
+  max-width: 100%;
+  height: 90px;
+  padding: 0 0 0 {{paddingSides}}px;
+  margin-top: -5px;
+}
+
+
+/* COMMAND CODE BY BENNO*/
+
+.hidden {
+	display: none;
+  	visibility: hidden;
+}
+
+#code {
+	display: inline-block;
+}
+
+.title-box {
+	text-transform: uppercase;
+ 	font-weight: 500;
+	line-height: 1.1;
+}
+
+/* Command fuction is based on: https://strms.net/custom-text_by_benno */
