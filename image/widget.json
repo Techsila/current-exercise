@@ -6,6 +6,16 @@
    "group": "General"
  },
   
+   "imageTopMargin": {
+    "type": "number",
+    "label": "Image top margin (px)",
+    "value": -5,
+    "min": -100,
+    "max": 100,
+    "step": 1,
+    "group": "General"
+  },
+  
     "paddingSides": {
     "type": "number",
     "label": "Padding sides (px)",
